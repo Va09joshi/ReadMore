@@ -82,7 +82,7 @@ export function EcomHeroSection() {
 
   const active = editions[currentPage]
 
-  const fadeIn = {
+  const fadeIn: any = {
     hidden: { opacity: 0, y: 12 },
     show: (i: number) => ({
       opacity: 1,
